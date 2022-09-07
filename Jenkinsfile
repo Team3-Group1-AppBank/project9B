@@ -23,6 +23,7 @@ pipeline{
           steps{
 
             sh 'bash -x /var/lib/jenkins/project9/victoria.sh'
+            echo "testing"
 
           }
 
